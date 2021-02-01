@@ -18,5 +18,22 @@ footer {
     position: sticky;
     bottom: 0;
     width: 100%;
+    color:white;
+
+}
+ul {
+
+
+}
+
+
+
+
+}
+
+a:hover{
+    color:rgba(0, 126, 126, 0.801);
+
+
 
 }
