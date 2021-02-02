@@ -19,9 +19,18 @@ footer {
     bottom: 0;
     width: 100%;
     color:white;
-
 }
 
+img {
+    float: right;
+    max-width: 60%;
+    padding: 15px
+}
+
+aside p {
+    border: 2px solid olive;
+    margin: 10%
+} 
 
 a:hover{
     color:rgba(0, 126, 126, 0.801);
