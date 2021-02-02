@@ -1,6 +1,9 @@
 * {
-    margin: 0;
+    margin: 0;  
+}
+html {
     box-sizing: border-box;
+    height: 100%;
 }
 
 header {
@@ -9,29 +12,46 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
-    box-sizing: border-box;
 
-}
-
-footer {
-    background-color: black;
-    position: sticky;
-    bottom: 0;
-    width: 100%;
-    color:white;
 }
 
 img {
     float: right;
     max-width: 60%;
-    padding: 15px
+    padding: 15px;
 }
-
+aside {
+    width: 20%;
+    float: right;
+    top: 0;
+    clear: none;
+   
+}
 aside p {
     border: 2px solid olive;
-    margin: 10%
+    margin: 10%;
 } 
 
 a:hover{
     color:rgba(0, 126, 126, 0.801);
+}
+.sidebar {
+    height: 100vh;
+    background-color: linen;
+}
+nav {
+    float: left;
+}
+main {
+    width: 60%;
+}
+.container {
+    padding: 20px;
+}
+footer {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color:white;
 }
