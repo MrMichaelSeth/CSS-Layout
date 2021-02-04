@@ -12,6 +12,7 @@ header, footer {
     width: 100%;
     text-align: center;
     padding: 10px;
+    z-index: 2;
 }
 
 header {
@@ -36,6 +37,7 @@ nav {
     position: sticky;
     float: left;
     margin-right: 10px;
+    z-index: 1;
 }
 
 li {
@@ -55,6 +57,7 @@ a:hover{
 main {
     width: 60%;
     margin: auto;
+    z-index: 0;
 }
 
 img {
@@ -71,4 +74,47 @@ p {
 footer {
     position: fixed;
     bottom: 0;
+}
+
+@media (max-width: 750px) {
+    html {
+        width: 100%;
+    }
+    main {
+        width: 90%;
+        padding-bottom: 5rem;
+    }
+    nav {
+        font-size: 1rem;
+    } 
+    /* width: 20%;
+    position: sticky;
+    float: left;
+    margin-right: 10px; */
+    ul {
+        background-color: linen;
+    }
+
+    .sidebar, li {
+        height: 10%;
+        width: 100%;
+        display: inline;
+    }
+
+    aside {
+        width: 100%;
+    }
+    /* 
+    aside {
+    width: 20%;
+    float: right;
+    top: 0;
+    margin-left: 10px;
+}
+aside p {
+    padding: 15px;
+    border: 2px solid olive;
+    margin: 10%;
+} 
+*/
 }
