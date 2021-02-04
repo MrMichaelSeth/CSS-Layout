@@ -4,6 +4,7 @@
 }
 html {
     height: 100%;
+    background-color: #d5f4e6;
 }
 
 .container>* {
@@ -11,13 +12,18 @@ html {
 }
 
 header, footer {
-    font-size: 1rem;
     color: rgb(255, 255, 255);
-    background-color: rgb(84, 163, 108);
+    background-color: #618685;
     width: 100%;
     text-align: center;
     padding: 10px;
     z-index: 2;
+}
+
+header, footer, aside, nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 header {
@@ -32,10 +38,13 @@ aside {
     margin-left: 10px;
 }
 aside p {
+    font-weight: bold;
     padding: 15px;
-    border: 2px solid olive;
+    border: 2px solid #618685;
+    border-radius: 2px;
+    box-shadow: 0 0 8px 2px rgb(197, 196, 196);
     margin: 10%;
-    background-color: yellow;
+    background-color: #fefbd8;
 } 
 
 nav {
@@ -62,6 +71,8 @@ a:hover{
 
 main {
     width: 60%;
+    height: 100vh;
+    padding: 5px;
     margin: auto;
     z-index: 0;
 }
@@ -75,6 +86,9 @@ img {
 p {
     padding: 0px 0px;
     margin: 10px;
+}
+a {
+    color: rgb(146, 76, 173);
 }
 
 footer {
@@ -93,6 +107,7 @@ footer {
     nav {
         font-size: 1rem;
         text-align: center;
+        border-bottom: 2px solid darkgrey;
     } 
     /* width: 20%;
     position: sticky;
@@ -101,6 +116,7 @@ footer {
     ul {
         background-color: linen;
     }
+
     li {
         padding: 0 5px;
     }
@@ -117,7 +133,7 @@ footer {
     }
 
     aside p {
-        width: 150px;
+        width: 200px;
         height: 20px;
         margin: auto;
         display: inline-block;
