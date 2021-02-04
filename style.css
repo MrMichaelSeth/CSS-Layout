@@ -7,8 +7,8 @@ html {
 
 header, footer {
     font-size: 1rem;
-    color: white;
-    background-color: black;
+    color: rgb(255, 255, 255);
+    background-color: rgb(84, 163, 108);
     width: 100%;
     text-align: center;
     padding: 10px;
@@ -86,11 +86,9 @@ footer {
     }
     nav {
         font-size: 1rem;
+        text-align: center;
     } 
-    /* width: 20%;
-    position: sticky;
-    float: left;
-    margin-right: 10px; */
+
     ul {
         background-color: linen;
     }
@@ -103,18 +101,13 @@ footer {
 
     aside {
         width: 100%;
+        text-align: center;
     }
-    /* 
-    aside {
-    width: 20%;
-    float: right;
-    top: 0;
-    margin-left: 10px;
-}
-aside p {
-    padding: 15px;
-    border: 2px solid olive;
-    margin: 10%;
-} 
-*/
+
+    aside p {
+        width: 170px;
+        height: 20px;
+        margin: auto;
+        display: inline-block;
+    }
 }
