@@ -7,10 +7,6 @@ html {
     background-color: #d5f4e6;
 }
 
-.container>* {
-   
-}
-
 header, footer {
     color: rgb(255, 255, 255);
     background-color: #618685;
