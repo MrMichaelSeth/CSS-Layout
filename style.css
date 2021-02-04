@@ -1,8 +1,13 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 html {
     height: 100%;
+}
+
+.container>* {
+   
 }
 
 header, footer {
@@ -30,6 +35,7 @@ aside p {
     padding: 15px;
     border: 2px solid olive;
     margin: 10%;
+    background-color: yellow;
 } 
 
 nav {
@@ -88,9 +94,15 @@ footer {
         font-size: 1rem;
         text-align: center;
     } 
-
+    /* width: 20%;
+    position: sticky;
+    float: left;
+    margin-right: 10px; */
     ul {
         background-color: linen;
+    }
+    li {
+        padding: 0 5px;
     }
 
     .sidebar, li {
@@ -105,7 +117,7 @@ footer {
     }
 
     aside p {
-        width: 170px;
+        width: 150px;
         height: 20px;
         margin: auto;
         display: inline-block;
